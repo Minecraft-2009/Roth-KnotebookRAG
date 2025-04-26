@@ -7,7 +7,7 @@ The code here is a RAG service, that is, Retrieval-Augmented Generation. It is n
 
 ## Code File Outline
 **`api.py`** is the server itself, which uses Flask. It is to this server that requests are made and it is this server which returns those requests with embeddings. 
-"/new" is the path of the server's code for recieving and processing post requests
+"/new" is the path of the server's code for recieving and processing post requests, taking in the text and all the related information, returning the embeddings generated
 
 **`post.py`** is the premade script which runs the post request, calling on the server made by `api.py`, which must be running for this script to function.
 
