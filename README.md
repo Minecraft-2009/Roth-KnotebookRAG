@@ -21,6 +21,11 @@ The code here is a RAG service, that is, Retrieval-Augmented Generation. It is n
 ```
 pip install requirements.txt
 ```
+***`.env`*** must be created by the user and in it should be put the user's personal API key, as outlined in the **Google API** section of this Readme.
+```
+GOOGLE_API_KEY=" "
+```
+
 
 ## Google API
 In order for the embeddings dependancies to function, a google api key is neccesary to be stored in a `.env` file, provided, but empty with space for the user's API. This must be procured seperately from this RAG service, not yet as large as Google. See the Google [Gemini API docs](https://ai.google.dev/gemini-api/docs) for more details on the API and pricing plans. 
