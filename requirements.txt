@@ -1,0 +1,6 @@
+flask
+pysqlite3-binary
+langchain_text_splitters
+langchain_chroma
+langchain_core
+langchain_google_genai
